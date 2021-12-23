@@ -6,3 +6,5 @@ Unfortunately, as they keep playing in the water, the water are throw outside an
 The little projet is to have an electric valve control by a little PIC18F1330 to control that valve to add water when necessary. 
 There are two level switches for the water to help to determine when we are missing water and when we added enough.
 More details to be added later.
+
+![This is an image](images/File020.jpg)
