@@ -1,4 +1,4 @@
-# C-Users-explo-OneDrive-FakeDrive-Documents-Microchip-myprojects-BirdPool2022
+# BirdPool2022
 Little "C" complete program to dump in a Microchip PIC18F1330 to control water valve for a bird bath.
 
 Basically there is like a water fountain and birds like to take a bath there. 
