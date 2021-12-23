@@ -9,6 +9,7 @@ More details to be added later.
 
 # Timeline
 2021-12-22 @ 22:07:00 - Prototype to test the initial program with a PIC18F1330 
+ 
 ![Top](images/2021-12-22@22-09-00_Top.jpg)
 ![Bottom](images/2021-12-22@22-09-00_Bottom.jpg)
 ![Overview of prototype](images/2021-12-22@22-09-00_Overview.jpg)
