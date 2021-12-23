@@ -7,4 +7,8 @@ The little projet is to have an electric valve control by a little PIC18F1330 to
 There are two level switches for the water to help to determine when we are missing water and when we added enough.
 More details to be added later.
 
-![This is an image](images/File020.jpg)
+#Timeline
+2021-12-22 @ 22:07:00 - Prototype to test the initial program with a PIC18F1330
+![Overview of prototype](images/2021-12-22@22-09-00_Overview.jpg)
+![Top](images/2021-12-22@22-09-00_Top.jpg)
+![Bottom](images/2021-12-22@22-09-00_Bottom.jpg)
