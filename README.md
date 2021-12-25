@@ -13,3 +13,8 @@ More details to be added later.
 ![Top](images/2021-12-22@22-09-00_Top.jpg)
 ![Bottom](images/2021-12-22@22-09-00_Bottom.jpg)
 ![Overview of prototype](images/2021-12-22@22-09-00_Overview.jpg)
+---
+2021-12-24 @ 22:35:00 - Begin the schematic and PCB drawings
+
+![Schematic](images/2021-12-24@22-34-00_SCH.png)
+![PCB](images/2021-12-24@22-34-00_PCB.png)
