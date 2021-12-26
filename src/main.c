@@ -85,6 +85,9 @@ void InitializeHardware(void)
   LATAbits.LATA1 = 0; //We're ready to drive a "0" to turn on RUN LED, we will control simply with data direction.
   TRISAbits.TRISA1 = 1; //We don't turn on the led, we set our pin in input.
 
+  LATAbits.LATA4 = 0; //We're ready to drive a "0" to turn on VALVE, we will control simply with data direction.
+  TRISAbits.TRISA4 = 1; //We don't turn on the relay yet, we set our pin in input.
+
   TRISBbits.RB0 = 1; //Set input for sensor LOW WATER
   TRISBbits.RB1 = 1; //Set input for sensor ENOUGH WATER
   TRISBbits.RB4 = 1; //
@@ -177,6 +180,7 @@ void AppLevelWatcher_Task(void)
         if (AppLevelWatcherData.StableReadingCounter > TRIGGER_TO_LAUNCHFILL)
         {
           TRISAbits.TRISA0 = 0;
+          TRISAbits.TRISA4 = 0; //Turn on the relay, so the valve,
           AppLevelWatcherData.StableReadingCounter = 0;
           AppLevelWatcherData.TimeOutCounter = 0;
           AppLevelWatcherData.CurrentWatcherTaskState = LEVELWATCHERSTATE_WAITCOMPLETEFILL;
@@ -196,6 +200,7 @@ void AppLevelWatcher_Task(void)
         if (AppLevelWatcherData.StableReadingCounter > TRIGGER_TO_LAUNCHFILL)
         {
           TRISAbits.TRISA0 = 1;
+          TRISAbits.TRISA4 = 1; //Turn off the relay, so the valve.
           AppLevelWatcherData.StableReadingCounter = 0;
           AppLevelWatcherData.TimeOutCounter = 0;
           AppLevelWatcherData.CurrentWatcherTaskState = LEVELWATCHERSTATE_WAITREQUESTOFILL;
@@ -207,6 +212,7 @@ void AppLevelWatcher_Task(void)
         if (AppLevelWatcherData.TimeOutCounter > TRIGGER_TO_ERROR)
         {
           TRISAbits.TRISA0 = 1;
+          TRISAbits.TRISA4 = 1; //Turn off the relay, so the valve.
           iLimiteFlash = 1;
           AppLevelWatcherData.CurrentWatcherTaskState = LEVELWATCHERSTATE_EMERGENCYSTOPFILL;
         }
