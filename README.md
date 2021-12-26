@@ -8,7 +8,7 @@ There are two level switches for the water to help to determine when we are miss
 More details to be added later.
 
 # Timeline
-2021-12-26 @ 16:47:00 - Ordered three PCB prototypes from [OSH PARK]('https://oshpark.com/').
+2021-12-26 @ 16:47:00 - Ordered three PCB prototypes from [OSH PARK](https://oshpark.com/).
 ![PCB](images/2021-12-26@16-36-00-0ac8ea9d5f799b5375694a8139059e29.png)
 ---
 2021-12-24 @ 22:35:00 - Begin the schematic and PCB drawings
