@@ -8,6 +8,10 @@ There are two level switches for the water to help to determine when we are miss
 More details to be added later.
 
 # Timeline
+2021-12-27 @ 22:00:00 - Ordered the few parts I don't have in inventory at home like the relay, the terminal blocks and the blue diode.
+2021-12-27 @ 22:00:01 - Played a little with the 3D board preview.
+![PCB](images/2021-12-27@21-59-00_3D_Preview.png)
+---
 2021-12-26 @ 16:47:00 - Ordered three PCB prototypes from [OSH PARK](https://oshpark.com/).
 ![PCB](images/2021-12-26@16-36-00-0ac8ea9d5f799b5375694a8139059e29.png)
 ---
